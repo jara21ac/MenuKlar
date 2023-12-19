@@ -1,0 +1,8 @@
+Om applikationen:
+Applikationen indeholder i alt fem forskellige views. Dette inkluderer et view til oprettelse af opskrifter,
+som gør det muligt at tilføje opskrifter til en database. Denne funktion planlægges at blive flyttet til en administratorfunktion senere i udviklingsprocessen. Et andet view er dedikeret til at præsentere kernefunktionaliteten i applikationen, nemlig planlægningen af ugemadplanen. Derudover findes et view, der giver brugerne mulighed for at tilpasse deres indstillinger. To yderligere views er beregnet til at vise brugeroplysninger og beskednotifikationer. Der er knapper til at navigere mellem brugeroplysningerne og beskednotifikationerne. Kernefunktionaliteten inkluderer en liste med opskrifter, som trækkes fra databasen. Her bruges en logisk funktionalitet, der omdanner hver opskrift til en klikbar enhed, der markeres efter valg. En tæller i baggrunden indikerer, når brugeren har valgt syv opskrifter. Når syv opskrifter er udvalgt, vil brugerne kunne observere fremkomsten af en knap i den nederste del af brugergrænsefladen. I den senere del af udviklingsprocessen vil denne knap tjene som en aktiveringsmulighed, som brugerne kan benytte for at fortsætte til deres ugentlige måltidsplan.
+
+Vejledning:
+Installer npm "npm install"
+start expo appliaktionen ved enten "npm start" eller "expo start"
+Er der skabt connection til firebase database skriver den "Firebase on!" i loggen
